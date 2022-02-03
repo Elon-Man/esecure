@@ -1,0 +1,17 @@
+{
+    "name": "E-Secure | Adblocking and Security",
+    "manifest_version": 2,
+    "version": "1.0",
+    "icons": {
+        "16": "icons/16x16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"},
+    "browser_action": {
+        "default_popup": "popup.html"
+        },
+    "description": "Welcome to E-Secure! We provide state of the art Security and Adblocking for Google Chrome Web Browser! Thank you to Al Ain English Speaking School For Helping us with this project.",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
